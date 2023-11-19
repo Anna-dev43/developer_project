@@ -125,39 +125,51 @@
           <div class="gallery__all flex">
             <div class="gallery__left flex">
               <form class="gallery__form flex">
-                <div class="form-group">
-                  <input aria-label="кнопка выбора" type="checkbox" id="XIX век" name="XIX век">
-                  <label for="XIX век" tabindex="0">XIX век</label>
+                <div class="gallery__form-group">
+                  <label class="gallery__from-label">
+                    <input class="gallery__from-checkbox checkbox" type="checkbox" name="XIX век">
+                    <span class="gallery__from-visuall-check"></span>
+                    <span class="gallery__from-check-text">XIX век</span>
+                  </label>
                 </div>
-                <div class="form-group">
-                  <input aria-label="кнопка выбора" type="checkbox" id="XX век" name="XX век">
-                  <label for="XX век" tabindex="0">XX век</label>
+                <div class="gallery__form-group">
+                  <label class="gallery__from-label">
+                    <input class="gallery__from-checkbox checkbox" type="checkbox" name="XX век">
+                    <span class="gallery__from-visuall-check"></span>
+                    <span class="gallery__from-check-text">XX век</span>
+                  </label>
                 </div>
-                <div class="form-group">
-                  <input aria-label="кнопка выбора" type="checkbox" id="Современность" name="Современность">
-                  <label for="Современность" tabindex="0">Современность</label>
+                <div class="gallery__form-group">
+                  <label class="gallery__from-label">
+                    <input class="gallery__from-checkbox checkbox" type="checkbox" name="Современность">
+                    <span class="gallery__from-visuall-check"></span>
+                    <span class="gallery__from-check-text">Современность</span>
+                  </label>
                 </div>
               </form>
             </div>
             <div class="gallery__right flex">
               <div class="gallery__img">
                 <picture>
-                  <source srcset="img/gallery-1-320.jpg" media="(max-width: 767px)">
-                  <source srcset="img/gallery-1-768.jpg" media="(max-width: 1023px)">
+                  <source srcset="img/gallery-1-320.jpg" media="(max-width: 320px)">
+                  <source srcset="img/gallery-1-768.jpg" media="(max-width: 768px)">
+                  <source srcset="img/gallery-1-1024.jpg" media="(max-width: 1024px)">
                   <img class="gellery-img-1" src="img/gallery-1.jpg" alt="image">
                 </picture>
               </div>
               <div class="gallery__img">
                 <picture>
-                  <source srcset="img/gallery-2-320.jpg" media="(max-width: 767px)">
-                  <source srcset="img/gallery-2-768.jpg" media="(max-width: 1023px)">
+                  <source srcset="img/gallery-2-320.jpg" media="(max-width: 320px)">
+                  <source srcset="img/gallery-2-768.jpg" media="(max-width: 768px)">
+                  <source srcset="img/gallery-2-1024.jpg" media="(max-width: 1024px)">
                   <img class="gellery-img-2" src="img/gallery-2.jpg" alt="image">
                 </picture>
               </div>
               <div class="gallery__img">
                 <picture>
-                  <source srcset="img/gallery-3-320.jpg" media="(max-width: 767px)">
-                  <source srcset="img/gallery-3-768.jpg" media="(max-width: 1023px)">
+                  <source srcset="img/gallery-3-320.jpg" media="(max-width: 320px)">
+                  <source srcset="img/gallery-3-768.jpg" media="(max-width: 768px)">
+                  <source srcset="img/gallery-3-1024.jpg" media="(max-width: 1024px)">
                   <img class="gellery-img-3" src="img/gallery-3.jpg" alt="image">
                 </picture>
               </div>
@@ -289,7 +301,7 @@
                       Музей им. Щусева
                       с 20 марта по 30 апреля
                     </p>
-                    <h3 class="section-heading">
+                    <h3 class="section-heading section-right">
                       Книжная гравюра в живом восприятии
                     </h3>
                     <p class="section-text">
@@ -310,7 +322,7 @@
                       <img class="section-img" src="img/events-2.jpg" alt="image">
                     </picture>
                   </div>
-                  <div class="section-bottom flex">
+                  <div class="section-bottom flex section-right-text">
                     <p class="events__signature events__signature-1">
                       ММОМА
                       24 марта 19:00
