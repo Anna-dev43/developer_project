@@ -117,9 +117,9 @@
       </div>
     </section>
     <section class="gallery">
-      <div class="container">
-        <div class="gallery__container">
-          <h2 class="gallery__heading">
+      <div class="container gallery__container flex">
+        <div class="gallery__heading">
+          <h2 class="gallery__title">
             Галерея
           </h2>
           <div class="gallery__all flex">
@@ -148,33 +148,35 @@
                 </div>
               </form>
             </div>
-            <div class="gallery__right flex">
-              <div class="gallery__img">
-                <picture>
-                  <source srcset="img/gallery-1-320.jpg" media="(max-width: 320px)">
-                  <source srcset="img/gallery-1-768.jpg" media="(max-width: 768px)">
-                  <source srcset="img/gallery-1-1024.jpg" media="(max-width: 1024px)">
-                  <img class="gellery-img-1" src="img/gallery-1.jpg" alt="image">
-                </picture>
-              </div>
-              <div class="gallery__img">
-                <picture>
-                  <source srcset="img/gallery-2-320.jpg" media="(max-width: 320px)">
-                  <source srcset="img/gallery-2-768.jpg" media="(max-width: 768px)">
-                  <source srcset="img/gallery-2-1024.jpg" media="(max-width: 1024px)">
-                  <img class="gellery-img-2" src="img/gallery-2.jpg" alt="image">
-                </picture>
-              </div>
-              <div class="gallery__img">
-                <picture>
-                  <source srcset="img/gallery-3-320.jpg" media="(max-width: 320px)">
-                  <source srcset="img/gallery-3-768.jpg" media="(max-width: 768px)">
-                  <source srcset="img/gallery-3-1024.jpg" media="(max-width: 1024px)">
-                  <img class="gellery-img-3" src="img/gallery-3.jpg" alt="image">
-                </picture>
-              </div>
-            </div>
           </div>
+        </div>
+        <div class="gallery__right">
+          <ul class="gallery__right-img">
+            <li class="gallery__img">
+              <picture>
+                <source srcset="img/gallery-1-320.jpg" media="(max-width: 320px)">
+                <source srcset="img/gallery-1-768.jpg" media="(max-width: 768px)">
+                <source srcset="img/gallery-1-1024.jpg" media="(max-width: 1024px)">
+                <img class="gellery-img-1" src="img/gallery-1.jpg" alt="image">
+              </picture>
+            </li>
+            <li class="gallery__img">
+              <picture>
+                <source srcset="img/gallery-2-320.jpg" media="(max-width: 320px)">
+                <source srcset="img/gallery-2-768.jpg" media="(max-width: 768px)">
+                <source srcset="img/gallery-2-1024.jpg" media="(max-width: 1024px)">
+                <img class="gellery-img-1" src="img/gallery-2.jpg" alt="image">
+              </picture>
+            </li>
+            <li class="gallery__img">
+              <picture>
+                <source srcset="img/gallery-3-320.jpg" media="(max-width: 320px)">
+                <source srcset="img/gallery-3-768.jpg" media="(max-width: 768px)">
+                <source srcset="img/gallery-3-1024.jpg" media="(max-width: 1024px)">
+                <img class="gellery-img-1" src="img/gallery-3.jpg" alt="image">
+              </picture>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
@@ -230,7 +232,7 @@
                     </picture>
                   </div>
                   <div class="catalog__right flex">
-                    <h3 class="right-heading">
+                    <h3 class="right-heading right-title">
                       Андреа дель Верроккьо
                     </h3>
                     <p class="right-date">
@@ -390,8 +392,8 @@
             <h3 class="bottom-heading">
               Партнеры проектов:
             </h3>
-            <div class="project-img flex">
-              <div class="projects__left">
+            <ul class="project-img flex">
+              <li class="projects__left">
                 <a class="projects__link" href="#">
                   <svg width="275" height="68" viewBox="0 0 275 68" fill="none" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -405,8 +407,8 @@
                     </defs>
                   </svg>
                 </a>
-              </div>
-              <div class="projects__right">
+              </li>
+              <li class="projects__right">
                 <a class="projects__link" href="#">
                   <svg width="275" height="68" viewBox="0 0 275 68" fill="none" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -420,8 +422,8 @@
                     </defs>
                   </svg>
                 </a>
-              </div>
-            </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

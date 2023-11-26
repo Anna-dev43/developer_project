@@ -14,8 +14,6 @@
 
   .hero__heading {
     margin-bottom: 20px;
-    font-size: 66px;
-    line-height: 68px;
   }
 
   .header__btn {
@@ -56,15 +54,15 @@
   }
 
   .gallery__all {
+    margin-bottom: 25px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
 
-  .gallery__left {
-    margin-bottom: 28px;
-    margin-right: 0;
+  .gallery__title {
+    padding-bottom: 15px;
   }
 
   .gallery__right {
@@ -167,7 +165,7 @@
 
   .hero__text {
     width: 659px;
-    margin-bottom: 132px;
+    margin-bottom: 133px;
   }
 
   .hero__btn {
@@ -176,7 +174,7 @@
   }
 
   .about {
-    margin-bottom: 72px;
+    margin-bottom: 69px;
   }
 
   .about__container {
@@ -193,8 +191,12 @@
     background-image: url(../img/gallery-1024.jpg);
   }
 
+  .gallery__container {
+    display: block;
+  }
+
   .gallery__heading {
-    margin-bottom: 13px;
+    justify-content: flex-start;
   }
 
   .gallery__from-visuall-check {
@@ -202,12 +204,21 @@
     margin-right: 8px;
   }
 
+  .gallery__right {
+    padding-top: 0;
+  }
+
+  .gallery__right-img {
+    flex-wrap: nowrap;
+  }
+
   .catalog {
     padding-top: 79px;
+    padding-bottom: 40px;
   }
 
   .catalog__item:not(:last-child) {
-    margin-bottom: 47px;
+    margin-bottom: 50px;
   }
 
   .catalog__contant {
@@ -228,7 +239,6 @@
 
   .right-heading {
     margin-bottom: 10px;
-    font-size: 23px;
   }
 
   .right-date {
@@ -240,7 +250,7 @@
   }
 
   .events {
-    padding-top: 53px;
+    padding-top: 40px;
     padding-bottom: 0;
   }
 
@@ -313,7 +323,7 @@
   }
 
   .projects__link {
-    padding: 23px 26px;
+    padding: 24px 26px;
   }
 
   .projects {
@@ -326,7 +336,7 @@
 
   .social {
     padding-top: 0;
-    margin-bottom: 3px;
+    margin-bottom: 5px;
   }
 
   .social__container {
@@ -335,7 +345,7 @@
 
   .social__left {
     padding-top: 42px;
-    padding-bottom: 29px;
+    padding-bottom: 27px;
   }
 
   .social__heading {
@@ -367,7 +377,7 @@
 
   .social__btn {
     padding-left: 41px;
-    padding-right: 33px;
+    padding-right: 41px;
   }
 
   .social__right {
@@ -380,6 +390,7 @@
 
   .footer {
     padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   .footer__link-logo {
@@ -432,6 +443,7 @@
   }
 
   .gallery {
+    padding-bottom: 0;
     background-image: url(../img/gallery-768.jpg);
   }
 
@@ -443,12 +455,8 @@
     margin-right: 11px;
   }
 
-  .gallery {
-    padding-bottom: 0;
-  }
-
-  .gallery__right {
-    gap: 35px;
+  .gallery__right-img {
+    gap: 34px;
   }
 
   .catalog__heading {
@@ -533,6 +541,7 @@
 
   .social {
     padding-bottom: 41px;
+    margin-bottom: 3px;
   }
 
   .social__left {
@@ -555,11 +564,9 @@
   }
 
   .social__btn {
-    font-size: 17px;
     padding-left: 28px;
-    padding-right: 33px;
+    padding-right: 28px;
   }
-
 
   .social__right {
     padding-top: 0;
@@ -606,6 +613,7 @@
   }
 
   .nav-list {
+    flex-wrap: nowrap;
     font-size: 12px;
     line-height: 16px;
     text-align: center;
@@ -616,7 +624,7 @@
   }
 
   .hero {
-    padding-top: 3px;
+    padding-top: 0;
     padding-bottom: 0;
     margin-bottom: 50px;
     background-image: url(../img/about-img-320.jpg);
@@ -644,11 +652,10 @@
   }
 
   .hero__heading {
-    margin-bottom: 9px;
+    margin-bottom: 12px;
     text-align: center;
-    letter-spacing: 1.5px;
     font-weight: 700;
-    font-size: 29px;
+    font-size: 32px;
     line-height: 28px;
   }
 
@@ -669,9 +676,8 @@
     padding-right: 17px;
     padding-top: 10px;
     padding-bottom: 13px;
-    letter-spacing: 0.4px;
     font-weight: 700;
-    font-size: 11px;
+    font-size: 12px;
     line-height: 16px;
     text-align: center;
   }
@@ -702,8 +708,8 @@
     padding-bottom: 48px;
   }
 
-  .gallery__heading {
-    margin-bottom: 8px;
+  .gallery__title {
+    padding-bottom: 9px;
     font-weight: 400;
     font-size: 28px;
     line-height: 38px;
@@ -711,10 +717,6 @@
 
   .gallery__from-visuall-check {
     margin-bottom: 0;
-  }
-
-  .gallery__left {
-    margin-bottom: 28px;
   }
 
   .gallery__right {
@@ -725,8 +727,13 @@
             flex-direction: column;
   }
 
-  .gallery__right {
-    gap: 26px;
+  .gallery__right-img {
+    flex-wrap: wrap;
+    gap: 27px;
+  }
+
+  .gallery__all {
+    margin-bottom: 25px;
   }
 
   .catalog {
@@ -735,7 +742,7 @@
   }
 
   .catalog__item:not(:last-child) {
-    margin-bottom: 27px;
+    margin-bottom: 29px;
   }
 
   .catalog__heading {
@@ -756,9 +763,12 @@
     margin-bottom: 17px;
   }
 
+  .right-title {
+    padding-right: 5px;
+  }
+
   .right-heading {
     margin-bottom: 8px;
-    letter-spacing: 0.7px;
   }
 
   .right-date {
@@ -766,7 +776,7 @@
   }
 
   .events {
-    padding-top: 21px;
+    padding-top: 23px;
     padding-bottom: 0;
   }
 
@@ -791,7 +801,7 @@
 
   .events__signature {
     margin-right: 0;
-    margin-bottom: 9px;
+    margin-bottom: 11px;
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
@@ -844,7 +854,7 @@
   .bottom-heading {
     margin-bottom: 11px;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 18px;
     line-height: 32px;
   }
 
@@ -887,14 +897,14 @@
   }
 
   .social__heading {
-    margin-bottom: 3px;
+    margin-bottom: 4px;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 18px;
     line-height: 25px;
   }
 
   .social__centre {
-    margin-bottom: 23px;
+    margin-bottom: 19px;
   }
 
   .social__form {
@@ -928,8 +938,10 @@
   }
 
   .social__heading-right {
-    margin-bottom: 10px;
-    letter-spacing: 0.1px;
+    margin-bottom: 7px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
   }
 
   .social__link {
