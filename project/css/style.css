@@ -156,9 +156,10 @@ h3 {
 
 .header__nav {
   overflow: auto;
+  width: 100%;
 }
 
-.nav-list {
+.header__nav-list {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -169,11 +170,11 @@ h3 {
   color: var(--color-white);
 }
 
-.nav-item {
+.header__nav-item {
   margin-right: 96px;
 }
 
-.nav-link {
+.header__nav-link {
   position: relative;
   z-index: 1;
   -webkit-transition: background-color 0.3s ease-in-out , color 0.3s ease-in-out;
@@ -181,7 +182,7 @@ h3 {
   transition: background-color 0.3s ease-in-out , color 0.3s ease-in-out , opacity 0.4 ease-in-out;
 }
 
-.nav-link::before {
+.header__nav-link::before {
   content: "";
   position: absolute;
   inset: 0 -5px;
@@ -190,24 +191,24 @@ h3 {
   background-color: var(--color-back);
 }
 
-.nav-link:focus-visible {
+.header__nav-link:focus-visible {
   color: var(--color-purple-focus);
 }
 
-.nav-link:focus-visible::before {
+.header__nav-link:focus-visible::before {
   opacity: 1;
 }
 
-.nav-link:focus {
+.header__nav-link:focus {
   outline: none;
   color: var(--color-white);
 }
 
-.nav-link:active {
+.header__nav-link:active {
   color: var(--color-back);
 }
 
-.nav-link:hover {
+.header__nav-link:hover {
   color: var(--color-purple-focus);
 }
 
@@ -481,6 +482,10 @@ h3 {
   width: calc(100% / 3 - 100px / 3);
 }
 
+.gellery-img-1 {
+  width: 100%;
+}
+
 .gallery__right-img {
   display: flex;
   flex-wrap: wrap;
@@ -551,6 +556,10 @@ h3 {
   font-size: 16px;
   line-height: 32px;
   color: var(--color-grey);
+}
+
+.catalog__img-1 {
+  width: 100%;
 }
 
 /*events*/
@@ -731,7 +740,7 @@ h3 {
 
 .social__left {
   padding-top: 6px;
-  margin-right: 80px;
+  margin-right: 79px;
 }
 
 .social__heading {
@@ -763,7 +772,6 @@ h3 {
 
 .social__form-imput {
   width: 270px;
-  margin-right: 20px;
   padding: 8px 24px 9px 24px;
   font-weight: 400;
   font-size: 16px;
@@ -776,6 +784,14 @@ h3 {
   transition: background-color 0.3s ease-in-out;
 }
 
+.social__from-imput-1 {
+  margin-right: 21px;
+}
+
+.social__from-imput-2 {
+  margin-right: 19px;
+}
+
 .social__form-imput:hover {
   background-color: var(--color-back-grey);
 }
@@ -783,10 +799,6 @@ h3 {
 .social__form-imput:focus {
   background-color: var(--color-back-grey);
   outline: none;
-}
-
-.social__form-imput:not(:last-child) {
-  margin-right: 21px;
 }
 
 .social__btn {
