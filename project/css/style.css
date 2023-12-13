@@ -125,8 +125,8 @@ h3 {
 
 /*header*/
 .header {
-  padding-top: 27px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   background-color: var(--color-black);
 }
 
@@ -136,14 +136,13 @@ h3 {
           align-items: center;
 }
 
-.header__top {
-  margin-bottom: 6px;
+.header__logo {
+  display: flex;
+  margin-right: 78px;
 }
 
-.header__logo {
-  display: block;
-  margin-right: 83px;
-  padding-top: 3px;
+.header__top {
+  flex-shrink: 0;
 }
 
 .header__btn-1 {
@@ -163,7 +162,6 @@ h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0 5px 8px 0;
   font-weight: 600;
   font-size: 18px;
   line-height: 25px;
@@ -267,7 +265,6 @@ h3 {
 .hero {
   padding-top: 147px;
   padding-bottom: 145px;
-  margin-bottom: 79px;
   background-color: var(--color-out);
   background-image: url(../img/about-img.jpg);
   background-size: cover;
@@ -287,7 +284,7 @@ h3 {
 }
 
 .hero__text {
-  margin-bottom: 93px;
+  margin-bottom: 92px;
   font-weight: 700;
   font-size: 18px;
   line-height: 30px;
@@ -295,24 +292,27 @@ h3 {
 }
 
 .hero__btn {
-  padding: 23px 33px 23px 35px;
+  padding: 20px 33px;
+  border: 3px solid transparent;
   font-weight: 700;
   font-size: 18px;
   line-height: 25px;
   color: var(--color-white);
   background-color: var(--color-purple);
   border-radius: 100px;
+  outline: none;
   -webkit-transition: background-color 0.3s ease-in-out , outline 0.3s ease-in-out;
   -o-transition: background-color 0.3s ease-in-out , outline 0.3s ease-in-out;
-  transition: background-color 0.3s ease-in-out , outline 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out , border-color 0.3s ease-in-out;
 }
 
 .hero__btn:hover {
-  outline: 2px solid var(--color-out);
+  border-color: var(--color-out);
 }
 
-.hero__btn:focus {
-  border: 2px solid var(--color-out);
+.hero__btn:focus:not(:hover, :active) {
+  outline: 3px solid var(--color-out);
+  outline-offset: 3px;
 }
 
 .hero__btn:active {
@@ -321,7 +321,8 @@ h3 {
 
 /*about*/
 .about {
-  margin-bottom: 71px;
+  padding-top: 79px;
+  padding-bottom: 71px;
 }
 
 .about__heading {
@@ -495,7 +496,7 @@ h3 {
 /*catalog*/
 .catalog {
   padding-top: 81px;
-  padding-bottom: 56px;
+  padding-bottom: 38px;
 }
 
 .catalog__heading {
@@ -564,8 +565,8 @@ h3 {
 
 /*events*/
 .events {
-  padding-top: 21px;
-  padding-bottom: 25px;
+  padding-top: 38px;
+  padding-bottom: 40px;
 }
 
 .events__heading {
@@ -691,8 +692,8 @@ h3 {
 
 /*projects*/
 .projects {
-  padding-top: 54px;
-  margin-bottom: 82px;
+  padding-top: 40px;
+  padding-bottom: 82px;
 }
 
 .projects__heading {
