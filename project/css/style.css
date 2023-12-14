@@ -577,11 +577,19 @@ h3 {
   color: var(--color-grey);
 }
 
+.events__contant {
+  width: calc(1600 / 1600 * 100%);
+}
+
 .events__list {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
       flex-wrap: wrap;
       gap: 50px;
+}
+
+.events__item {
+  width: calc(100% / 3 - 100px / 3);
 }
 
 .events__section {
