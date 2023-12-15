@@ -418,7 +418,10 @@ h3 {
   display: inline-block;
   width: 12px;
   height: 12px;
+  margin-top: 4px;
   margin-right: 7px;
+  margin-bottom: 3px;
+  margin-left: -4px;
   border: 1px solid;
   transition: border-color .3s;
   vertical-align: middle;
