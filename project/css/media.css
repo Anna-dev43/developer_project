@@ -324,7 +324,7 @@
 
   .social {
     padding-top: 42px;
-    padding-bottom: 41px; 
+    padding-bottom: 41px;
   }
 
   .social__container {
@@ -901,6 +901,11 @@
 
   .social__form-imput:not(:last-child) {
     margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .social__from-imput-1 {
+    margin-right: 0;
   }
 
   .social__btn {
